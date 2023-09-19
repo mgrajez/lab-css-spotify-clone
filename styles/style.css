@@ -6,3 +6,185 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* Iternation 1 */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+/* Iteration 1 */
+
+.nav-bar {
+  display: flex;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 4.1em;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+/* Iteration 2 */
+
+header {
+  background-image: url(/images/landing.jpg);
+  height: 900px;
+  background-position: center;
+  background-size: cover;
+}
+
+header .main-title {
+  color: white;
+  font-size: 5rem;
+  font-weight: 600;
+  padding: 1.2rem;
+}
+
+header .sub-title {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 300;
+  padding: 1.2rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Iteration 3 */
+
+.title-iter3 {
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  text-decoration: underline;
+  text-decoration-color: #1db954;
+  text-underline-offset: 0.8rem;
+}
+
+.iter3-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.music-icon,
+.high-quality-icon,
+.devices-icon {
+  height: 100px;
+  padding: 1rem;
+  padding-top: 4rem;
+  margin-left: 3rem;
+  display: flex;
+}
+
+.iter3-title {
+  color: #1db954;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.iter3-subtitle {
+  color: #2e2c2c;
+  font-size: 1.3rem;
+  font-weight: 300;
+  padding: 0.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+
+/* Iteration 4 */
+
+.iter4 {
+  background-color: #1db954;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+
+.title-iter4 {
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.8rem;
+  padding: 1rem;
+  padding-top: 3rem;
+}
+
+.text-iter4 {
+  color: white;
+  padding-bottom: 3rem;
+  /* padding-right: 8rem; */
+  margin-right: 8rem;
+}
+
+.title-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.sub-text {
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 1rem;
+}
+
+.spotify-app {
+  height: 450px;
+}
+
+.spotify-app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+
+.iter4-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.spotify-icon {
+  width: 9rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
